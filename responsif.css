@@ -23,6 +23,15 @@
         display: none;
     }
 
+    header {
+        background-color: rgba(102, 110, 104, 1);
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        z-index: 10;
+    }
+
     .header-right {
     float: none;
     margin-right: none;
@@ -30,7 +39,8 @@
     }
 
     .header-right a {
-    line-height: 90px;
+    font-size: 12px;
+    line-height: 50px;
     padding: 0 25px;
     color: white;
     display: inline-block;
@@ -42,7 +52,11 @@
     .top-wrapper h1 {
         font-size: 20px;
         letter-spacing: normal;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
+    }
+
+    .top-wrapper .teks-top {
+        font-size: 14px;
     }
 
 
@@ -72,5 +86,9 @@
 
     .portfo {
         width: 100%;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }
