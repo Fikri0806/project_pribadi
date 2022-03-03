@@ -1,0 +1,76 @@
+/* tablet */
+@media(max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .portfolio {
+        flex-wrap: wrap;
+    }
+
+    .portfo {
+        width: 50%;
+    }
+}
+
+
+
+
+
+/* Android */
+@media(max-width: 670px) {
+    .logo {
+        display: none;
+    }
+
+    .header-right {
+    float: none;
+    margin-right: none;
+    text-align: center;
+    }
+
+    .header-right a {
+    line-height: 90px;
+    padding: 0 25px;
+    color: white;
+    display: inline-block;
+    transition: all 0.5s;
+    float: none;
+    }
+
+
+    .top-wrapper h1 {
+        font-size: 20px;
+        letter-spacing: normal;
+        padding-bottom: 15px;
+    }
+
+
+    .top-wrapper p {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    #about-me {
+        padding-bottom: 680px;
+    }
+
+    .section-introduction, .section-education, .section-working {
+        width: 100%;
+    }
+
+    .isi-about1, .isi-about2, .isi-about3 {
+        width: 100%;
+    }
+
+    .portfolio {
+        flex-wrap: wrap;
+    }
+
+    .portfo {
+        width: 100%;
+    }
+}
