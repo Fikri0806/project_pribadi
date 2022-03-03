@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(102, 110, 104,0.5);
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    z-index: 10;
+}
+
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 115px;
+    margin-top: -14px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 90px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(67, 79, 70);
+    
+}
+
+.top-wrapper {
+    padding-top: 260px;
+    background-image: url(logo/hero1.jpg);
+    background-size: cover;
+    text-align: center;
+    color: gold;
+    height: 700px;
+}
+
+.top-wrapper h1 {
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+hr {
+    margin-top: -10px;
+    padding-bottom: 30px;
+    width: 30px;
+    border: 0;
+    border-top: 3px solid tomato;
+    font-weight: 1000px;
+}
+
+.top-wrapper p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn-wrapper {
+    padding: 40px 0;
+}
+
+.kunjungi {
+    color: white;
+    background-color: tomato;
+    padding: 15px 40px;
+    box-shadow: 0 7px purple;
+    border-radius: 10px;
+}
+
+.kunjungi:active {
+    position: relative;
+    box-shadow: none;
+    top: 7px;
+}
+
+#about-me {
+    background-color: rgba(167, 181, 100, 0.3);
+    padding-top: 80px;
+    padding-bottom: 360px;
+    text-align: center;
+}
+
+.heading {
+    color: rgb(26, 217, 185);
+    font-weight: normal;
+    text-align: center;
+}
+
+.about {
+    color: tomato;
+}
+
+.img-icon{
+    width: 200px;
+}
+
+.section-introduction {
+    display: inline-block;
+    width: 50%;
+}
+
+.section-education, .section-working {
+    float: left;
+    width: 50%;
+}
+
+.isi-about1 {
+    padding-bottom: 40px;
+}
+
+.isi-about2,.isi-about3 {
+    width: 80%;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#myportfolio {
+    padding: 80px 0;
+    text-align: center;
+    background-color: rgba(234, 242, 0, 0.2);
+}
+
+.img-port {
+    width: 250px;
+    height: 250px;
+}
+
+.portfolio {
+    display: flex;
+}
+
+.portfo {
+    flex: auto;
+}
+
+#contact-me {
+    padding: 80px 0;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #dee7ec;
+}
+
+.btn {
+    color: white;
+    background-color: tomato;
+    padding: 15px 0px;
+    box-shadow: 0 7px purple;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: gold;
+}
+
+footer p {
+    text-align: center;
+}
